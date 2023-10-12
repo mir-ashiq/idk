@@ -1,0 +1,4 @@
+eth_account==0.5.8
+hdwallet==2.1.1
+Requests==2.31.0
+web3==5.30.0

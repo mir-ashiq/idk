@@ -1,0 +1,10 @@
+в строчках (для примера взял polygon, в остальных все аналогично)
+
+polygon_rpc = "" - меняете в кавычках линк на свой с wss:// или ws://
+
+web3 = Web3(Web3.HTTPProvider(polygon_rpc)) - вместо HTTPProvider, вставляете WebsocketProvider
+
+Должно получиться так:
+web3 = Web3(Web3.WebsocketProvider(polygon_rpc))
+
+обновить pip install --upgrade websockets
